@@ -8,14 +8,24 @@
 }
 
 .display-2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10pt;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40pt;
+}
+
+.display-3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25pt;
+}
+
+.display-4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12pt;
 }
 
 
-.body {
-    background-color: #F4F4F4;
-    font-size: 12pt;
+body {
+    background-color: white;
+    font-size: 10pt;
     font-family: 'Montserrat', sans-serif;
     color: #59493B;
 
@@ -24,12 +34,23 @@
 .col-mid-6 {
     width: 70%;
     padding: 0px;
-    border-color: red;
-    border-style: dotted;
+}
+
+.col-mid-4 {
+    width: 70%;
+    padding: 0px;
+}
+
+.col-mid-3 {
+    width: 70%;
+    padding: 0px;
 }
 
 .jumbotron {
     padding-top: 0px;
-    background-color: #F4F4F4;
+    background-color: white;
+    /* border: green;
+    border-style: dotted; */
 }
+
 
