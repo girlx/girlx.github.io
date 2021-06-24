@@ -1,56 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+}
+body {
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+    color: #59493B;
+}
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+
 .display-1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 80pt;
+    color: #59493B;
+    font-size: 90pt;
 }
 
 .display-2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 40pt;
-}
-
-.display-3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 25pt;
-}
-
-.display-4 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 12pt;
-}
-
-
-body {
-    background-color: white;
-    font-size: 10pt;
     font-family: 'Montserrat', sans-serif;
     color: #59493B;
+    font-size: 18pt;
+}
+
+.jumbotron-1 {
+    background-image: url(../img/background.jpg);
+    height: 842px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    position: relative;
+    top: -10px;
+}  
+
+.jumbotron-2 {
+    background-image: url(../img/background-green.jpg);
+    height: 673px;
+    background-repeat: no-repat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    position: relative;
+    padding-top: 8rem;
+    top: -48px;
+} 
+
+.jumbotron-3 {
+    /* background-image: url(../img/background.jpg);
+    height: 1000px;
+    background-repeat: no-repat;
+    background-size: cover;
+    border-bottom: 1px solid white; */
+    position: relative;
+    background-color:rgb(154,196,210);
+    padding-top: 5rem;
+    top: -50px;
+} 
+
+.row {
+   /* border-color: red;
+    border-style: dotted;  */
+    padding: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
+}
+
+.col-md-4 {
+    border-color: red;
+    border-style: dotted;
+    padding: 0px 20px 0px 20px;
+}
+
+.col-md-7 {
+    padding: 0px 70px 0px 0px;
+    
+}
+
+#p-1 {
+    padding: 0px 70px 70px 100px;
+}
+
+#p-2 {
+    padding: 0px 0px 0px 70px;
+}
+
+#p-3 {
+    padding: 0px 70px 0px 70px;
 
 }
 
-.col-mid-6 {
-    width: 70%;
-    padding: 0px;
+
+#col-7a {
+    color: rgb(189,202,204);
 }
-
-.col-mid-4 {
-    width: 70%;
-    padding: 0px;
-}
-
-.col-mid-3 {
-    width: 70%;
-    padding: 0px;
-}
-
-.jumbotron {
-    padding-top: 0px;
-    background-color: white;
-    /* border: green;
-    border-style: dotted; */
-}
-
-
