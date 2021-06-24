@@ -1,0 +1,23 @@
+.btn-send
+ 
+{
+ 
+background-color: #68889E;
+ 
+color:#FFF;
+ 
+border-color: #2F3E48;
+ 
+}
+ 
+.btn-send:hover, .btn-send:focus, .btn-send:active, .btn-send.active, .open .dropdown-toggle.btn-send {
+ 
+ 
+ 
+background-color: #2F3E48;
+ 
+color:#FFF;
+ 
+border-color: #31347B;
+ 
+}

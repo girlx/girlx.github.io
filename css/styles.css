@@ -2,81 +2,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-}
 body {
-    background-color: pink;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: #59493B;
+    
 }
-
-.text-responsive {
-    font-size: calc(100% + 1vw + 1vh);
-  }
 
 .display-1 {
     font-family: 'Cormorant Garamond', serif;
     color: #59493B;
     font-size: 90pt;
+    text-transform: uppercase;
 }
 
 .display-2 {
     font-family: 'Montserrat', sans-serif;
     color: #59493B;
     font-size: 18pt;
+    text-transform: uppercase;
 }
 
 .jumbotron-1 {
     background-image: url(../img/background.jpg);
-    height: 842px;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 1px solid white;
-    position: relative;
-    top: -10px;
+    height: 100%;
 }  
 
 .jumbotron-2 {
-    background-image: url(../img/background-green.jpg);
-    height: 673px;
-    background-repeat: no-repat;
+    background-image: url(../img/background-purple.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 1px solid white;
-    position: relative;
-    padding-top: 8rem;
-    top: -48px;
+    height: 100%;
 } 
 
 .jumbotron-3 {
-    /* background-image: url(../img/background.jpg);
-    height: 1000px;
-    background-repeat: no-repat;
-    background-size: cover;
-    border-bottom: 1px solid white; */
-    position: relative;
-    background-color:rgb(154,196,210);
-    padding-top: 5rem;
-    top: -50px;
-} 
+    background-color: rgb(133,94,121);
+    height: 100%;
+}  
 
 .row {
-   /* border-color: red;
-    border-style: dotted;  */
     padding: 0px 0px 0px 0px;
     margin: 10px 10px 10px 10px;
+    /* border: red;
+    border-style: dotted; */
 }
 
-.col-md-4 {
-    border-color: red;
-    border-style: dotted;
-    padding: 0px 20px 0px 20px;
-}
-
-.col-md-7 {
-    padding: 0px 70px 0px 0px;
-    
-}
-
-#p-1 {
+/* #p-1 {
     padding: 0px 70px 70px 100px;
 }
 
@@ -85,11 +58,52 @@ body {
 }
 
 #p-3 {
-    padding: 0px 70px 0px 70px;
-
+    padding: 70px 70px 70px 70px;
 }
 
+#p-4 {
+    padding: 0px 70px 0px 0px;
+    
+}
+
+#p-5 {
+    padding: 0px 70px 0px 70px;
+ }
+  */
 
 #col-7a {
     color: rgb(189,202,204);
+}
+
+nav {
+    margin: 5px;
+}
+
+
+h1 {
+    font-size: 1rem;
+}
+
+@media (min-width: 400px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 2.2rem;
+    }
 }
