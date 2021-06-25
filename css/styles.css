@@ -12,14 +12,7 @@ body {
 .display-1 {
     font-family: 'Cormorant Garamond', serif;
     color: #59493B;
-    font-size: 90pt;
-    text-transform: uppercase;
-}
-
-.display-2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #59493B;
-    font-size: 18pt;
+    font-size: 90px;
     text-transform: uppercase;
 }
 
@@ -27,20 +20,13 @@ body {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
 }  
 
 .jumbotron-2 {
     background-image: url(../img/background-purple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-} 
-
-.jumbotron-3 {
-    background-color: rgb(133,94,121);
-    height: 100%;
-}  
+}
 
 .row {
     padding: 0px 0px 0px 0px;
