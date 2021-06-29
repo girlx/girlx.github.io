@@ -1,3 +1,2 @@
 # Contact Me
-contact box is not currently working
-contact me through email at xiong.chelsey @ gmail.com
+Contact box is not currently working so contact me through email at xiong.chelsey @ gmail.com
