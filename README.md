@@ -1,4 +1,5 @@
-# Read Me
-### Final project for Bitwise Industries Mobile Friendly Website Class 2021
-### Contact box is not currently working so contact me through email at xiong.chelsey @ gmail.com
-### Ongoing work on this profile
+# Portfolio
+
+This project was created as a final project for Mobile Website, a course in Bitwise Workforce Training, a service of Bitwise Industries.
+© 2021
+contact: xiong.chelsey @ gmail.com see live project at <a href="https://www.chelseysee.com">chelseysee.com</a>
