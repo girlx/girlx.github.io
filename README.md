@@ -1,4 +1,4 @@
-# Portfolio
+# girlx.github.io
 
 This project was created as a final project for Mobile Website, a course in Bitwise Workforce Training, a service of Bitwise Industries.
 © 2021
