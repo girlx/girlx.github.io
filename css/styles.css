@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
-    background-color: #FFFDFC;
+    background-color: #FFC5D4;
     color: #2C0F00;
     font-size: 12px;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
-    background-color: #FBE4D8;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container {
+    background-color: #FFC5D4;
 }
 
 img {
@@ -16,4 +26,50 @@ img {
 .body {
     margin: 30px;
     text-align: justify;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+/* navigation */
+
+nav {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+/* page wrap */
+.pagewrap {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #ffffff;
 }
