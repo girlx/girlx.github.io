@@ -17,15 +17,12 @@ body {
 
 .container {
     background-color: #FFC5D4;
+    width: 500px;
+    padding-bottom: 30px;
 }
 
 img {
     text-align: center;
-}
-
-.body {
-    margin: 30px;
-    text-align: justify;
 }
 
 h1 {
@@ -37,6 +34,7 @@ h2 {
     font-family: 'Crimson Text', serif;
     font-size: 20px;
 }
+
 
 /* navigation */
 
@@ -73,3 +71,31 @@ main {
     padding-top: 20px;
     background-color: #ffffff;
 }
+
+/* media query for img and container */
+@media only screen and (max-width: 500px) {
+    img {
+        width: 350px; height: auto;
+    }
+    .container {
+        width: 400px;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    img {
+        width: 300px; height: auto;
+        }
+    .container {
+        width: 350px;
+        }
+    }
+
+@media only screen and (max-width: 300px) {
+    img {
+        width: 250px; height: auto;
+        }
+    .container {
+        width: 300px;
+        }
+    }
