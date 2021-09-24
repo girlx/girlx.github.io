@@ -1,4 +1,5 @@
-# girlx.github.io
+# My portfolio
 
-&copy; Spring, 2021
-contact: xiong.chelsey @ gmail.com see live project at <a href="https://www.chelseysee.com">chelseysee.com</a></br>
+&copy; 2021<br>
+I want to create a minimilist website that would encompass the creative work I do.
+
